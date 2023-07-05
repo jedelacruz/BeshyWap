@@ -32,6 +32,7 @@ body{
     flex-direction: row;
     gap: 10px;
     justify-content: space-between;
+    
 }
 .container button{
     width: 48%;
@@ -40,10 +41,10 @@ body{
     padding: 10px 25px;
     background-color: #121212;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
     cursor: pointer;
     transition: 0.5s linear;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .container button:active{
     background-color: white;
@@ -72,5 +73,19 @@ footer{
 @media only screen and (max-width: 1000px) {
     .container{
         width: 90%;
+    }
+    .container input{
+        margin-bottom: 10px;
+    }
+    .btn-container{
+        flex-wrap: wrap;
+    }
+    .container button{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #clear-btn{
+        margin-bottom: 10px;
     }
   }
